@@ -1,0 +1,149 @@
+{
+  IRREGULAR: {
+    [
+      {
+        present_tense:   'be',
+        past_tense:      'was/were',
+        past_participle: 'been',
+        gerund:          'being',
+        spanish:         'ser, estar'
+      },
+      {
+        present_tense:   'become',
+        past_tense:      'became',
+        past_participle: 'become',
+        gerund:          'becoming',
+        spanish:         'llegar a ser'
+      },
+      {
+        present_tense:   'begin',
+        past_tense:      'began',
+        past_participle: 'begun',
+        gerund:          'begining',
+        spanish:         'empezar'
+      },
+      {
+        present_tense:   'break',
+        past_tense:      'broke',
+        past_participle: 'broken',
+        gerund:          'breakning',
+        spanish:         'empezar'
+      },
+      {
+        present_tense:   'bring',
+        past_tense:      'brought',
+        past_participle: 'brought',
+        gerund:          'bringing',
+        spanish:         'traer'
+      },
+      {
+        present_tense:   'build',
+        past_tense:      'built',
+        past_participle: 'built',
+        gerund:          'building',
+        spanish:         'contruir'
+      },
+      {
+        present_tense:   'buy',
+        past_tense:      'bought',
+        past_participle: 'bought',
+        gerund:          'buying',
+        spanish:         'comprar'
+      },
+      {
+        present_tense:   'catch',
+        past_tense:      'caught',
+        past_participle: 'caught',
+        gerund:          'catching',
+        spanish:         'atrapar/sorprender'
+      },
+      {
+        present_tense:   'come',
+        past_tense:      'came',
+        past_participle: 'come',
+        gerund:          'coming',
+        spanish:         'venir'
+      },
+      {
+        present_tense:   'cut',
+        past_tense:      'cut',
+        past_participle: 'cut',
+        gerund:          'cuting',
+        spanish:         'cortar'
+      },
+      {
+        present_tense:   'do',
+        past_tense:      'did',
+        past_participle: 'done',
+        gerund:          'doing',
+        spanish:         'hacer'
+      },
+      {
+        present_tense:   'dream',
+        past_tense:      'dreamt',
+        past_participle: 'dreamt',
+        gerund:          'dreaming',
+        spanish:         'dormir'
+      },
+      {
+        present_tense:   'drink',
+        past_tense:      'drank',
+        past_participle: 'drunk',
+        gerund:          'dringing',
+        spanish:         'tomar, beber'
+      },
+      {
+        present_tense:   'drive',
+        past_tense:      'drove',
+        past_participle: 'driven',
+        gerund:          'driving',
+        spanish:         'manejar, conducir'
+      },
+      {
+        present_tense:   'eat',
+        past_tense:      'ate',
+        past_participle: 'eaten',
+        gerund:          'eating',
+        spanish:         'comer'
+      },
+      {
+        present_tense:   'fall',
+        past_tense:      'fell',
+        past_participle: 'fallen',
+        gerund:          'falling',
+        spanish:         'caer'
+      },
+      {
+        present_tense:   'feel',
+        past_tense:      'feit',
+        past_participle: 'feit',
+        gerund:          'feeling',
+        spanish:         'sentir'
+      },
+      {
+        present_tense:   'fight',
+        past_tense:      'fought',
+        past_participle: 'fought',
+        gerund:          'fighting',
+        spanish:         'pelear / luchar'
+      },
+      {
+        present_tense:   'find',
+        past_tense:      'found',
+        past_participle: 'found',
+        gerund:          'finding',
+        spanish:         'encontrar'
+      },
+      {
+        present_tense:   'fly',
+        past_tense:      'flew',
+        past_participle: 'flown',
+        gerund:          'flying',
+        spanish:         'volar'
+      }
+    ]
+  },
+  REGULAR: {
+
+  }
+}

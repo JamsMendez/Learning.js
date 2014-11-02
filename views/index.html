@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <section ng-controller="VerbsCtrl">
+    <div class="container">
+      <h1>IRREGULAR VERBS</h1>
+
+      {% raw %}
+      <table class="table">
+        <thead>
+          <th>PRESENT</th>
+          <th>PAST</th>
+          <th>PAST PASTICIPLE</th>
+          <th>SPANISH</th>
+          <th>LISTEN</th>
+        </thead>
+        <tbody>
+          <tr ng-repeat="verb in Model.Content.IRREGULAR | filter: Model.search">
+            <td>{{ verb.present_tense }}</td>
+            <td>{{ verb.past_tense }}</td>
+            <td>{{ verb.past_participle }}</td>
+            <td>{{ verb.spanish }}</td>
+            <td>
+              <button class="btn btn-{{ verb.btn }} btn-sm" ng-click="Evt.talkVerb(verb, $index)">
+                <span class="glyphicon glyphicon-volume-up"></span>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      {% endraw %}
+    </div>
+  </section>
+{% endblock %}
